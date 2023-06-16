@@ -1,0 +1,11 @@
+{
+	"build": "public",
+	"routes": {
+		"pages": ":filename",
+		"services": "service/:filename"
+	},
+	"baseurl": "/inno-hub/",
+	"local": {
+		"port": 3000
+	}
+}

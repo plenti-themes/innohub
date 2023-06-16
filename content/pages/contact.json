@@ -1,0 +1,48 @@
+{
+    "components": [
+        {
+            "name": "contact",
+            "fields": {
+                "title": "Let's Contact With Us",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "form": {
+                    "title": "Message me",
+                    "name": "Name",
+                    "email": "Email",
+                    "subject": "Subject",
+                    "number": "xcxc",
+                    "message": "Message"
+                },
+                "services": {
+                    "terms": "Terms of Services",
+                    "url": "."
+                },
+                "policy": {
+                    "terms": "Privacy Policy",
+                    "url": "."
+                },
+                "button": {
+                    "title": "Send Message",
+                    "url": "."
+                },
+                "email": {
+                    "title": "Mail Here",
+                    "address1": "hello@luaz.com",
+                    "address2": "info@luaz.com",
+                    "icon": "mail-outline"
+                },
+                "address": {
+                    "title": "Visit Here",
+                    "location": "27 Division St, New York, NY 10002, USA",
+                    "icon": "map-outlinet"
+                },
+                "phone": {
+                    "title": "Call Here",
+                    "number1": "+123 456 7890",
+                    "number2": "+241 452 4526",
+                    "icon": "headset-outline"
+                }
+            }
+        }
+    ]
+}

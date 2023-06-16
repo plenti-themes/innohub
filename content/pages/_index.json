@@ -1,0 +1,346 @@
+{
+	"meta": {
+		"desc": "InnoHub is a theme for the Plentico static site generator",
+		"keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
+	},
+	"components": [
+		{
+			"name": "hero",
+			"fields": {
+				"subtitle": "InnoHub Marketing Agency",
+				"title": "We are available for marketing",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporthem incididunt ut labore et dolore magna aliqua.",
+				"link": {
+					"title": "Get Started",
+					"url": "."
+				},
+				"image": {
+					"url": "media/hero-banner.png",
+					"alt": "hero banner"
+				}
+			}
+		},
+		{
+			"name": "service",
+			"fields": {
+				"title": "Services We Provide",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+				"items": [
+					{
+						"title": "SEO Optimization",
+						"body": "Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.",
+						"icon": {
+							"title": "chatbox",
+							"colour": "#13c4a1"
+						}
+					},
+					{
+						"title": "Digital Marketing",
+						"body": "Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.",
+						"icon": {
+							"title": "desktop",
+							"colour": "#6610f2"
+						}
+					},
+					{
+						"title": "Market Research",
+						"body": "Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.",
+						"icon": {
+							"title": "bulb",
+							"colour": "#ffb700"
+						}
+					},
+					{
+						"title": "Keyword Targeting",
+						"body": "Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.",
+						"icon": {
+							"title": "phone-portrait",
+							"colour": "#fc3549"
+						}
+					},
+					{
+						"title": "Email Marketing",
+						"body": "Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.",
+						"icon": {
+							"title": "archive",
+							"colour": "#00d280"
+						}
+					},
+					{
+						"title": "Marketing & Reporting",
+						"body": "Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.",
+						"icon": {
+							"title": "build",
+							"colour": "#ff612f"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "featured_projects",
+			"fields": {
+				"title": "Our Recent Projects",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"items": [
+					{
+						"card": {
+							"subtitle": "SEO Optimization",
+							"title": "Designing a better cinema experience",
+							"url": "."
+						},
+						"image": {
+							"url": "media/project-1.jpg",
+							"alt": "Designing a better cinema experience"
+						},
+						"link": {
+							"title": "View Details",
+							"url": "."
+						}
+					},
+					{
+						"card": {
+							"subtitle": "Digital Marketing",
+							"title": "Building design process within teams",
+							"url": "."
+						},
+						"image": {
+							"url": "media/project-2.jpg",
+							"alt": "Building design process within teams"
+						},
+						"link": {
+							"title": "View Details",
+							"url": "."
+						}
+					},
+					{
+						"card": {
+							"subtitle": "Keyword Targeting",
+							"title": "How intercom brings play into their design process",
+							"url": "."
+						},
+						"image": {
+							"url": "media/project-3.jpg",
+							"alt": "How intercom brings play into their design process"
+						},
+						"link": {
+							"title": "View Details",
+							"url": "."
+						}
+					},
+					{
+						"card": {
+							"subtitle": "Email Marketing",
+							"title": "Stuck with to-do list, I created a new app for",
+							"url": "."
+						},
+						"image": {
+							"url": "media/project-4.jpg",
+							"alt": "Stuck with to-do list, I created a new app for"
+						},
+						"link": {
+							"title": "View Details",
+							"url": "."
+						}
+					},
+					{
+						"card": {
+							"subtitle": "Marketing & Reporting",
+							"title": "Examples of different types of sprints",
+							"url": "."
+						},
+						"image": {
+							"url": "media/project-5.jpg",
+							"alt": "Examples of different types of sprints"
+						},
+						"link": {
+							"title": "View Details",
+							"url": "."
+						}
+					},
+					{
+						"card": {
+							"subtitle": "Development",
+							"title": "Redesigning the New York times app",
+							"url": "."
+						},
+						"image": {
+							"url": "media/project-6.jpg",
+							"alt": "Redesigning the New York times app"
+						},
+						"link": {
+							"title": "View Details",
+							"url": "."
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "about",
+			"fields": {
+				"title": "About Us",
+				"description": "The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during the Jurchen invasion of the 1120s, while it is also known that many restaurants were run by families.",
+				"image": {
+					"url": "media/about-banner.jpg",
+					"alt": "about banner"
+				},
+				"icon": {
+					"name": "play",
+					"link": "."
+				},
+				"sectionText1": {
+					"title": "Who We Are",
+					"description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+				},
+				"sectionText2": {
+					"title": "Our Success"
+				},
+				"items": [
+					{
+						"list": {
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+							"icon": "checkmark-circle"
+						}
+					},
+					{
+						"list": {
+							"text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+							"icon": "checkmark-circle"
+						}
+					},
+					{
+						"list": {
+							"text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.",
+							"icon": "checkmark-circle"
+						}
+					}
+				],
+				"sectionText3": {
+					"title": "Who We Are",
+					"description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+				}
+			}
+		},
+		{
+			"name": "cta",
+			"fields": {
+				"subtitle": "So What is Next?",
+				"title": "Are You Ready? Let's get to Work!",
+				"link": {
+					"title": "Get Started",
+					"url": "."
+				},
+				"image": {
+					"url": "media/cta-bg.jpg",
+					"alt": "background"
+				}
+			}
+		},
+		{
+			"name": "blog",
+			"fields": {
+				"title": "Latest Articles Updated Weekly",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"items": [
+					{
+						"card": {
+							"title": "2022 Local SEO Success: The Year of Everywhere",
+							"url": "."
+						},
+						"image": {
+							"url": "media/blog-2.jpg",
+							"alt": "2022 Local SEO Success: The Year of Everywhere"
+						},
+						"publish": {
+							"date": "June 02 2023",
+							"icon": ""
+						},
+						"author": {
+							"name": "Admin",
+							"icon": "",
+							"url": "."
+						},
+						"category": {
+							"name": "Design",
+							"icon": "",
+							"url": "."
+						}
+					},
+					{
+						"card": {
+							"title": "The Guide to Running a Client Discovery Process",
+							"url": "."
+						},
+						"image": {
+							"url": "media/blog-3.jpg",
+							"alt": "The Guide to Running a Client Discovery Process"
+						},
+						"publish": {
+							"date": "June 03 2023",
+							"icon": ""
+						},
+						"author": {
+							"name": "Admin",
+							"icon": "",
+							"url": "."
+						},
+						"category": {
+							"name": "Creative",
+							"icon": "",
+							"url": "."
+						}
+					},
+					{
+						"card": {
+							"title": "3 Ways to Get Client Approval for Scope Changes",
+							"url": "."
+						},
+						"image": {
+							"url": "media/blog-4.jpg",
+							"alt": "3 Ways to Get Client Approval for Scope Changes"
+						},
+						"publish": {
+							"date": "June 04 2023",
+							"icon": ""
+						},
+						"author": {
+							"name": "Admin",
+							"icon": "",
+							"url": "."
+						},
+						"category": {
+							"name": "UX",
+							"icon": "",
+							"url": "."
+						}
+					},
+					{
+						"card": {
+							"title": "Top 21 Must-Read Blogs For Creative Agencies",
+							"url": "."
+						},
+						"image": {
+							"url": "media/blog-5.jpg",
+							"alt": "Top 21 Must-Read Blogs For Creative Agencies"
+						},
+						"publish": {
+							"date": "June 05 2023",
+							"icon": ""
+						},
+						"author": {
+							"name": "Admin",
+							"icon": "",
+							"url": "."
+						},
+						"category": {
+							"name": "Design",
+							"icon": "",
+							"url": "."
+						}
+					}
+				]
+			}
+		}
+	]
+}
