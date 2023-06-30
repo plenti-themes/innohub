@@ -4,7 +4,7 @@
 		"pages": ":filename",
 		"services": "service/:filename"
 	},
-	"baseurl": "/inno-hub/",
+	"baseurl": "/innohub/",
 	"local": {
 		"port": 3000
 	}
