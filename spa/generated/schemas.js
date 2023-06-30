@@ -1,0 +1,1 @@
+const allSchemas={services:{}};export default allSchemas
