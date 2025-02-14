@@ -1,15 +1,12 @@
-<!-- 
-        - #CONTACT
-      -->
+<script>
+  export let title, body, form, services, policy, button, email, address, phone;
+</script>
 
 <section class="section contact" id="contact" aria-label="contact">
   <div class="container">
-    <h2 class="h2 section-title">Let's Contact With Us</h2>
+    <h2 class="h2 section-title">{title}</h2>
 
-    <p class="section-text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    </p>
+    <p class="section-text">{body}</p>
 
     <form action="" class="contact-form">
       <div class="input-wrapper">
@@ -68,26 +65,26 @@
         />
 
         <label for="terms" class="label">
-          Accept <a href="." class="label-link">Terms of Services</a> and
-          <a href="." class="label-link">Privacy Policy</a>
+          Accept <a href="{services.url}" class="label-link">{services.text}</a> and
+          <a href="{policy.url}" class="label-link">{policy.text}</a>
         </label>
       </div>
 
-      <button type="submit" class="btn btn-primary">Send Message</button>
+      <button type="submit" class="btn btn-primary">{button.title}</button>
     </form>
 
     <ul class="contact-list">
       <li class="contact-item">
         <div class="contact-card">
           <div class="card-icon">
-            <ion-icon name="mail-outline" aria-hidden="true" />
+            <ion-icon name="{email.icon}" aria-hidden="true" />
           </div>
 
           <div class="card-content">
-            <h3 class="h3 card-title">Mail Here</h3>
-
-            <a href="mailto:hello@luaz.com" class="card-link">hello@luaz.com</a>
-            <a href="mailto:info@luaz.com" class="card-link">info@luaz.com</a>
+            <h3 class="h3 card-title">{email.title}</h3>
+            {#each email.addresses as email_address}
+              <a href="mailto:{email_address}" class="card-link">{email_address}</a>
+            {/each}
           </div>
         </div>
       </li>
@@ -95,15 +92,14 @@
       <li class="contact-item">
         <div class="contact-card">
           <div class="card-icon">
-            <ion-icon name="map-outline" aria-hidden="true" />
+            <ion-icon name="{address.icon}" aria-hidden="true" />
           </div>
 
           <div class="card-content">
-            <h3 class="h3 card-title">Visit Here</h3>
+            <h3 class="h3 card-title">{address.title}</h3>
 
             <address class="card-address">
-              27 Division St, New York,<br />
-              NY 10002, USA
+              {@html address.location}
             </address>
           </div>
         </div>
@@ -112,14 +108,14 @@
       <li class="contact-item">
         <div class="contact-card">
           <div class="card-icon">
-            <ion-icon name="headset-outline" aria-hidden="true" />
+            <ion-icon name="{phone.icon}" aria-hidden="true" />
           </div>
 
           <div class="card-content">
-            <h3 class="h3 card-title">Call Here</h3>
-
-            <a href="tel:+1234567890" class="card-link">+123 456 7890</a>
-            <a href="tel:+2414524526" class="card-link">+241 452 4526</a>
+            <h3 class="h3 card-title">{phone.title}</h3>
+            {#each phone.numbers as phone_number}
+              <a href="tel:{phone_number}" class="card-link">{phone_number}</a>
+            {/each}
           </div>
         </div>
       </li>

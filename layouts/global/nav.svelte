@@ -1,8 +1,3 @@
-<script>
-
-</script>
-
-
 <a href="." class="logo">InnoHub</a>
 
   <nav class="navbar container" data-navbar>

@@ -14,11 +14,11 @@
                     "message": "Message"
                 },
                 "services": {
-                    "terms": "Terms of Services",
+                    "text": "Terms of Services",
                     "url": "."
                 },
                 "policy": {
-                    "terms": "Privacy Policy",
+                    "text": "Privacy Policy",
                     "url": "."
                 },
                 "button": {
@@ -27,19 +27,23 @@
                 },
                 "email": {
                     "title": "Mail Here",
-                    "address1": "hello@luaz.com",
-                    "address2": "info@luaz.com",
+                    "addresses": [
+                        "hello@luaz.com",
+                        "info@luaz.com"
+                    ],
                     "icon": "mail-outline"
                 },
                 "address": {
                     "title": "Visit Here",
-                    "location": "27 Division St, New York, NY 10002, USA",
+                    "location": "27 Division St, New York,<br> NY 10002, USA",
                     "icon": "map-outlinet"
                 },
                 "phone": {
                     "title": "Call Here",
-                    "number1": "+123 456 7890",
-                    "number2": "+241 452 4526",
+                    "numbers": [
+                        "+123 456 7890",
+                        "+241 452 4526"
+                    ],
                     "icon": "headset-outline"
                 }
             }
