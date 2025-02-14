@@ -4,6 +4,7 @@
 		"pages": ":filename",
 		"services": "service/:filename"
 	},
+	"entrypoint_js": ":fingerprint",
 	"baseurl": "/innohub/",
 	"local": {
 		"port": 3000

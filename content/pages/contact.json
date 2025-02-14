@@ -1,4 +1,9 @@
 {
+	"meta": {
+		"title": "Contact Us | InnoHub",
+		"desc": "Contact us for more info about our services",
+		"keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
+	},
     "components": [
         {
             "name": "contact",
