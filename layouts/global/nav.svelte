@@ -20,7 +20,7 @@
       </li>
 
       <li>
-        <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+        <a href="blog" class="navbar-link" data-nav-link>Blog</a>
       </li>
 
       <li>

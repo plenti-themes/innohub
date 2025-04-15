@@ -1,5 +1,7 @@
 <script>
-  export let title, body, items;
+  export let title, body, allContent;
+
+  let posts = allContent.filter(content => content.type == "blog").sort((a, b) => new Date(b.fields.date) - new Date(a.fields.date));
 </script>
 
 <section class="section blog" id="blog" aria-label="blog">
@@ -18,7 +20,7 @@
             style="--width: 860; --height: 646;"
           >
             <img
-              src="./media/blog-1.jpg"
+              src="{posts[0]?.fields?.image?.src}"
               width="860"
               height="646"
               loading="lazy"
@@ -30,25 +32,24 @@
           <div class="card-content">
             <ul class="post-meta inherited-styles">
               <li>
-                <ion-icon name="person"/><a href=".">Admin</a>
+                <ion-icon name="person"/><a href="/about">{posts[0]?.fields?.author}</a>
               </li>
               <li>
                 <ion-icon name="pricetag"/><a href="/blog-details/"
-                  >Web Development</a
+                  >{posts[0]?.fields?.tags[0]}</a
                 >
               </li>
-              <li><ion-icon name="calendar"/>Feb 15, 2023</li>
+              <li><ion-icon name="calendar"/>{posts[0]?.fields?.date}</li>
             </ul>
 
             <h3 class="h3">
-              <a href="." class="card-title"
-                >How to Become a Successful Entry Level UX Designer</a
-              >
+              <a href="{posts[0]?.path}" class="card-title">{posts[0]?.fields?.title}</a>
             </h3>
+            <a class="subtitle" href="{posts[0]?.path}">{posts[0]?.fields?.subtitle}</a>
           </div>
         </div>
       </li>
-      {#each items as item}
+      {#each posts.slice(1) as post}
         <li>
           <div class="blog-card grid">
             <figure
@@ -56,11 +57,11 @@
               style="--width: 860; --height: 646;"
             >
               <img
-                src={item.image.url}
+                src={post.fields.image.src}
                 width="860"
                 height="646"
                 loading="lazy"
-                alt={item.image.alt}
+                alt={post.fields.image.alt}
                 class="img-cover"
               />
             </figure>
@@ -68,23 +69,18 @@
             <div class="card-content">
               <ul class="post-meta">
                 <li>
-                  <ion-icon name="person"/><a href={item.author.url}
-                    >{item.author.name}</a
-                  >
+                  <ion-icon name="person"/><a href="/about">{post.fields.author}</a>
                 </li>
                 <li>
-                  <ion-icon name="pricetag"/><a href={item.category.url}
-                    >{item.category.name}</a
-                  >
+                  <ion-icon name="pricetag"/><a href="#">{post.fields.tags[0]}</a>
                 </li>
                 <li>
-                  <ion-icon name="calendar"/>{item.publish.date}
+                  <ion-icon name="calendar"/>{post.fields.date}
                 </li>
               </ul>
 
-              <h3 class="h3">
-                <a href="." class="card-title">{item.card.title}</a>
-              </h3>
+              <h3 class="h3"><a href="{post.path}" class="card-title">{post.fields.title}</a></h3>
+              <a class="subtitle" href="{post.path}">{post.fields.subtitle}</a>
             </div>
           </div>
         </li>
@@ -111,6 +107,9 @@
   a {
     text-decoration: none;
     transition: all .5s;
+  }
+  a.subtitle {
+	  color: initial;
   }
   
   @media only screen and (max-width: 767px) {
