@@ -11,19 +11,19 @@
   <Head title={content.filename} {env} {...content.fields} />
   <body id="top">
     {#if user && $user.isAuthenticated}
-    <svelte:component this={$user.menu} {user} bind:content={content} />
-  {/if}
-    <header class="header" data-header>
-      <div class="container">
-        <Nav />
-      </div>
-    </header>
+      <svelte:component this={$user.menu} {user} bind:content={content} />
+    {/if}
     <main>
+      <header class="header" data-header>
+        <div class="container">
+          <Nav />
+        </div>
+      </header>
       <Login {user} />
       <article>
-    <svelte:component this={layout} {...content.fields} {allContent} {allLayouts} {content}/>
+        <svelte:component this={layout} {...content.fields} {allContent} {allLayouts} {content}/>
       </article>
+      <Footer />
     </main>
-    <Footer />
   </body>
 </html>

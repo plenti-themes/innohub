@@ -95,43 +95,43 @@
     #RESET
   \*-----------------------------------*/
   
-  *,
-  *::before,
-  *::after {
+  main *,
+  main *::before,
+  main *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  li { list-style: none; }
+  main li { list-style: none; }
   
-  a {
+  main a {
     text-decoration: none;
     color: inherit;
   }
   
-  a,
-  img,
-  span,
-  time,
-  label,
-  input,
-  button,
-  textarea,
-  ion-icon { display: block; }
+  main a,
+  main img,
+  main span,
+  main time,
+  main label,
+  main input,
+  main button,
+  main textarea,
+  main ion-icon { display: block; }
   
   img { height: auto; }
   
-  input,
-  button,
-  textarea {
+  main input,
+  main button,
+  main textarea {
     background: none;
     border: none;
     font: inherit;
   }
   
-  input,
-  textarea { width: 100%; }
+  main input,
+  main textarea { width: 100%; }
   
   button { cursor: pointer; }
   
