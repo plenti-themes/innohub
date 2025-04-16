@@ -1,0 +1,47 @@
+{
+	"name": "about",
+	"fields": {
+		"title": "About Us",
+		"description": "The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during the Jurchen invasion of the 1120s, while it is also known that many restaurants were run by families.",
+		"image": {
+			"url": "media/about-banner.jpg",
+			"alt": "about banner"
+		},
+		"icon": {
+			"name": "play",
+			"link": "."
+		},
+		"sectionText1": {
+			"title": "Who We Are",
+			"description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+		},
+		"sectionText2": {
+			"title": "Our Success"
+		},
+		"items": [
+			{
+				"list": {
+					"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+					"icon": "checkmark-circle"
+				}
+			},
+			{
+				"list": {
+					"text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+					"icon": "checkmark-circle"
+				}
+			},
+			{
+				"list": {
+					"text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.",
+					"icon": "checkmark-circle"
+				}
+			}
+		],
+		"sectionText3": {
+			"title": "Who We Are",
+			"description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+		}
+	}
+}
+

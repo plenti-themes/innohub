@@ -10,7 +10,10 @@
 			<ion-icon name="person"/><a href="/about">{author}</a>
 		</div>
 		<div>
-			<ion-icon name="pricetag"/><a href="#">{tags[0]}</a>
+			<ion-icon name="pricetag"/>
+			{#each tags as tag}
+				<a href="#">{tag}</a>
+			{/each}
 		</div>
 		<div>
 			<ion-icon name="calendar"/>{date}

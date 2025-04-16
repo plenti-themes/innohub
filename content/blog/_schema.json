@@ -1,0 +1,17 @@
+{
+	"tags": {
+		"type": "checkbox",
+		"options": [
+			"Design",
+			"Creative",
+			"Web Dev",
+			"UX"
+		]
+	},
+	"body": {
+		"type": "wysiwyg",
+		"options": [
+			"all"
+		]
+	}
+}

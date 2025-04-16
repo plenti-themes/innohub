@@ -1,0 +1,17 @@
+{
+	"name": "hero",
+	"fields": {
+		"subtitle": "InnoHub Marketing Agency",
+		"title": "We are available for marketing",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporthem incididunt ut labore et dolore magna aliqua.",
+		"link": {
+			"title": "Get Started",
+			"url": "."
+		},
+		"image": {
+			"url": "media/hero-banner.png",
+			"alt": "hero banner"
+		}
+	}
+}
+

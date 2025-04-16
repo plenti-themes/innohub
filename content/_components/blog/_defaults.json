@@ -1,0 +1,8 @@
+{
+	"name": "blog",
+	"fields": {
+		"title": "Latest Articles Updated Weekly",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}
+}
+

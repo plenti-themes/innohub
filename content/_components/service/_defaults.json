@@ -1,0 +1,58 @@
+{
+	"name": "service",
+	"fields": {
+		"title": "Services We Provide",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+		"items": [
+			{
+				"title": "SEO Optimization",
+				"body": "Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.",
+				"icon": {
+					"title": "chatbox",
+					"colour": "#13c4a1"
+				}
+			},
+			{
+				"title": "Digital Marketing",
+				"body": "Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.",
+				"icon": {
+					"title": "desktop",
+					"colour": "#6610f2"
+				}
+			},
+			{
+				"title": "Market Research",
+				"body": "Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.",
+				"icon": {
+					"title": "bulb",
+					"colour": "#ffb700"
+				}
+			},
+			{
+				"title": "Keyword Targeting",
+				"body": "Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.",
+				"icon": {
+					"title": "phone-portrait",
+					"colour": "#fc3549"
+				}
+			},
+			{
+				"title": "Email Marketing",
+				"body": "Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.",
+				"icon": {
+					"title": "archive",
+					"colour": "#00d280"
+				}
+			},
+			{
+				"title": "Marketing & Reporting",
+				"body": "Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.",
+				"icon": {
+					"title": "build",
+					"colour": "#ff612f"
+				}
+			}
+		]
+	}
+}
+

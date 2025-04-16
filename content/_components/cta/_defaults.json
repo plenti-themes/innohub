@@ -1,0 +1,16 @@
+{
+	"name": "cta",
+	"fields": {
+		"subtitle": "So What is Next?",
+		"title": "Are You Ready? Let's get to Work!",
+		"link": {
+			"title": "Get Started",
+			"url": "."
+		},
+		"image": {
+			"url": "media/cta-bg.jpg",
+			"alt": "background"
+		}
+	}
+}
+

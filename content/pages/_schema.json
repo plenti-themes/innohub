@@ -1,0 +1,14 @@
+{
+	"components": {
+		"type": "component",
+		"options": [
+			"hero",
+			"service",
+			"featured_projects",
+			"about",
+			"cta",
+			"blog",
+			"contact"
+		]
+	}
+}

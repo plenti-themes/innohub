@@ -1,7 +1,8 @@
 {
-    "components": [],
     "meta": {
+        "title": "Home | InnoHub",
         "desc": "InnoHub is a theme for the Plentico static site generator",
         "keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
-      }
+    },
+    "components": []
 }

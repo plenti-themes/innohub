@@ -1,0 +1,13 @@
+{
+	"title": "Blog title",
+	"subtitle": "Blog subtitle",
+	"image": {
+		"src": "media/blog/blog-2.jpg",
+		"alt": "A jar full of multi-color markers."
+	},
+	"author": "Admin",
+	"date": "Apr 15, 2025",
+	"tags": ["Design"],
+	"body": "<p>Body content for this particular blog post.</p>"
+}
+
