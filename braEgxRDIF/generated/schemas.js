@@ -1,0 +1,1 @@
+const allSchemas={blog:{tags:{type:"checkbox",options:["Design","Creative","Web Dev","UX"]},body:{type:"wysiwyg",options:["all"]}},pages:{components:{type:"component",options:["hero","service","featured_projects","about","cta","blog","contact"]}},services:{}};export default allSchemas

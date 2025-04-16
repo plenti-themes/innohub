@@ -1,1 +1,0 @@
-export let env={local:!1,baseurl:"/innohub/",routes:{pages:":filename",services:"service/:filename"},types:["blog","pages","services"],singleTypes:[],fingerprint:"GfqrAolLbx",entrypointHTML:"global/html.svelte",entrypointJS:"GfqrAolLbx",cms:{provider:"",repo:"",redirectUrl:"",appId:"",branch:""}}
